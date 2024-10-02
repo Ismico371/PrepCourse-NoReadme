@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(253, 253, 161);
+    font-size: 1.5em;
+    padding: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#encabezado{
+    border: 2px solid black;
+    padding: 1%;
+    display: flex;
+    background-color: black;
+}
+
+header{
+    color: white;
+    padding: 1%;
+
+}
+
+.cards{
+    width: 25%;
+    height: 150px;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+.foto{
+    padding: 1%;
+    height:15em;
+    width: 15em;
+}
+
+.tittle-cards{
+    padding: 1%;
+}
+
+#caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+.cards:hover{
+    height: 100%;
+    background-color: rgb(255, 255, 92);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.link:hover{
+    background-color: rgb(158, 150, 31);
+    padding: 1%;
+    transition: background-color 1s ease-in;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
